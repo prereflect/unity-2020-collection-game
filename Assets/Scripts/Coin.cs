@@ -14,6 +14,15 @@ public class Coin : MonoBehaviour
         ++Coin.CoinCount;
     }
 
+	void OnTriggerEnter(Collider Col)
+	{
+		//If player collected coin, then destroy object
+		if (Col.CompareTag("Player"))
+		{
+			Destroy(gameObject);
+		}
+	}
+
     //Called when object is destroyed
     void OnDestroy()
     {
