@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 275386775}
   - component: {fileID: 275386774}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: GoldCoin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
