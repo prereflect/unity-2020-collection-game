@@ -1,31 +1,24 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-	//Maximum time to complete level (in seconds)
-	public float MaxTime = 60f;
-	
-	//Countdown
-	[SerializeField]
-	private float CountDown = 0;
-	
-	void Start () 
-	{
-		CountDown = MaxTime;
-	}
+    public float MaxTime = 60f;
 
-	void Update () 
-	{
-		//Reduce time
-		CountDown -= Time.deltaTime;
+    [SerializeField] private float CountDown = 0;
 
-		//Restart level if time runs out
-		if(CountDown <= 0)
-		{
-			//Reset coin count
-			Coin.CoinCount=0;
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		}
-	}
+    void Start()
+    {
+        CountDown = MaxTime;
+    }
+    void Update()
+    {
+        CountDown -= Time.deltaTime;
+
+        if (CountDown <= 0)
+        {
+            Coin.CoinCount = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
 }

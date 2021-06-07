@@ -62,3 +62,43 @@ C# parse time         : 267ms
 candidates check time : 115ms
 console write time    : 1ms
 
+[api-updater (non-obsolete-error-filter)] 6/6/2021 5:15:04 PM : Starting /home/aloysius/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 125.294ms
+moved types parse time: 69ms
+candidates parse time : 1ms
+C# parse time         : 335ms
+candidates check time : 60ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 6/6/2021 5:16:45 PM : Starting /home/aloysius/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61.54ms
+moved types parse time: 71ms
+candidates parse time : 1ms
+C# parse time         : 264ms
+candidates check time : 62ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 6/6/2021 5:17:08 PM : Starting /home/aloysius/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61.002ms
+moved types parse time: 75ms
+candidates parse time : 2ms
+C# parse time         : 317ms
+candidates check time : 67ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 6/6/2021 5:17:41 PM : Starting /home/aloysius/2020.3.7f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61.906ms
+moved types parse time: 65ms
+candidates parse time : 1ms
+C# parse time         : 271ms
+candidates check time : 60ms
+console write time    : 0ms
+
